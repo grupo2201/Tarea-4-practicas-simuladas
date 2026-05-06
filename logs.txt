@@ -1,0 +1,12 @@
+[INFO] 2026-05-05 10:15:21 - R1 - Reserva creada
+[INFO] 2026-05-05 10:15:21 - Reserva exitosa. Total: 100
+[INFO] 2026-05-05 10:15:21 - Proceso finalizado
+
+[ERROR] 2026-05-05 10:16:02 - Cliente inválido
+[ERROR] 2026-05-05 10:16:05 - Faltan horas
+[ERROR] 2026-05-05 10:16:10 - Error procesando reserva
+
+[INFO] 2026-05-05 10:16:15 - Proceso finalizado[ERROR] 2026-05-05 12:52:30.237865 - Can't instantiate abstract class ReservaSala without an implementation for abstract method 'obtener_detalles'
+[ERROR] 2026-05-06 10:46:33.556639 - Can't instantiate abstract class ReservaSala without an implementation for abstract method 'obtener_detalles'
+[ERROR] 2026-05-06 10:57:05.999232 - Can't instantiate abstract class ReservaSala without an implementation for abstract method 'obtener_detalles'
+[ERROR] 2026-05-06 10:57:48.654354 - Can't instantiate abstract class ReservaSala without an implementation for abstract method 'obtener_detalles'

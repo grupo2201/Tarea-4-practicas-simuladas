@@ -1,5 +1,5 @@
 from models.base import EntidadBase
-from models.exceptions import ClienteInvalidoError
+from excepciones import ClienteInvalidoError
 
 class Cliente(EntidadBase):
     def __init__(self, nombre: str, identificacion: str):

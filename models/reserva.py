@@ -1,6 +1,6 @@
 from datetime import date
 from models.base import EntidadBase
-from models.exceptions import *
+from excepciones import *
 from utils.logger import log_error, log_info
 
 class Reserva(EntidadBase):
@@ -36,6 +36,7 @@ class Reserva(EntidadBase):
 
         except ReservaError as e:
             log_error(e)
+            raise
         except Exception as e:
             log_error(e)
             raise ReservaError("Error procesando reserva") from e

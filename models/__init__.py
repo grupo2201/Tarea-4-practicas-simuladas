@@ -1,11 +1,7 @@
 from .cliente import Cliente
-from .servicio import Servicio, ReservaSala, AlquilerEquipo, AsesoriaEspecializada
+from .servicio_base import Servicio
+from .reserva_sala import ReservaSala
+from .alquiler_equipo import AlquilerEquipo
+from .asesoria_especializada import AsesoriaEspecializada
 from .reserva import Reserva
-from .exceptions import (
-    ReservaError,
-    ClienteInvalidoError,
-    ServicioNoDisponibleError,
-    OperacionNoPermitidaError,
-    ParametrosFaltantesError
-)
 from .base import EntidadBase

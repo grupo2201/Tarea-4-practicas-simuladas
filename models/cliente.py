@@ -37,4 +37,12 @@ class Cliente(EntidadBase):
             raise ClienteInvalidoError("Datos incompletos del cliente")
 
     def obtener_detalles(self) -> str:
-        return f"Cliente: {self.__nombre} ({self.__identificacion})"
+        detalles = f"Cliente: {self.__nombre} ({self.__identificacion})"
+        if self._datos_personales:
+            detalles +=f"\ndatos personales:\n"
+            for clave, valor in self._datos_personales.items():
+                detalles +=f"-{clave}: {valor}\n"
+        return detalles
+    def __str__(self):
+        return self.obtener_detalles()
+    
